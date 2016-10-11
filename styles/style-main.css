@@ -26,18 +26,16 @@
 .splash-head {
   font-size: 20px;
   font-weight: bold;
-  color: white;
-  border: 3px solid white;
-  outline: 3px solid black;
+  color: black;
+  background-color: rgba(255, 255, 255, 0.5);
   padding: 1em 1.6em;
   font-weight: 100;
   line-height: 1em; }
 
 /* This is the subheading that appears on the slpash screen */
 .splash-subhead {
-  color: white;
-  letter-spacing: 0.05em;
-  opacity: 0.8; }
+  color: black;
+  letter-spacing: 0.05em; }
 
 .content-wrapper {
   /* These styles are required for the "scroll-over" effect */
