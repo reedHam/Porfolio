@@ -1,0 +1,74 @@
+@import url("pure-release-0.6.0/pure.css");
+@import url("pure-release-0.6.0/grids-responsive.css");
+.splash-container {
+  background: #141E1E;
+  z-index: 1;
+  overflow: hidden;
+  /* The following styles are required for the "scroll-over" effect */
+  width: 100%;
+  height: 88%;
+  top: 0;
+  left: 0;
+  position: fixed !important; }
+
+.splash {
+  /* absolute center .splash within .splash-container */
+  width: 80%;
+  height: 50%;
+  margin: auto;
+  position: absolute;
+  top: 100px;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  text-align: center;
+  text-transform: uppercase; }
+
+/* This is the main heading that appears on the slpash screen */
+.splash-head {
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+  border: 3px solid white;
+  padding: 1em 1.6em;
+  font-weight: 100;
+  line-height: 1em; }
+
+/* This is the subheading that appears on the slpash screen */
+.splash-subhead {
+  color: white;
+  letter-spacing: 0.05em;
+  opacity: 0.8; }
+
+.content-wrapper {
+  /* These styles are required for the "scroll-over" effect */
+  position: absolute;
+  top: 87%;
+  width: 100%;
+  min-height: 12%;
+  z-index: 2;
+  background: white; }
+
+.content {
+  width: 70%;
+  margin: auto; }
+
+.box {
+  padding: 1em; }
+
+.grad-line {
+  display: block;
+  border: none;
+  color: white;
+  height: 1px;
+  background: black;
+  background: -webkit-gradient(radial, 50% 50%, 0, 50% 50%, 350, from(#000), to(#fff)); }
+
+.content-head {
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  margin: 1em 0 em; }
+
+.center {
+  text-align: center; }
