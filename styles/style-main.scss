@@ -2,7 +2,7 @@
 
 
 .splash-container {
-    background: #141E1E;
+    background-image: url('/Porfolio/img/pano.jpg');
     z-index: 1;
     overflow: hidden;
     /* The following styles are required for the "scroll-over" effect */
@@ -30,6 +30,7 @@
     font-weight: bold;
     color: white;
     border: 3px solid white;
+    outline: 3px solid black;
     padding: 1em 1.6em;
     font-weight: 100;
     //border-radius: 5px;
