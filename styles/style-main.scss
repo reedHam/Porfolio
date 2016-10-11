@@ -2,6 +2,7 @@
 
 
 .splash-container {
+    /*Adds a darkening effect to the image for readability*/
     background-image: linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.4)), url('/Porfolio/img/pano.jpg');
     z-index: 1;
     overflow: hidden;
@@ -80,4 +81,14 @@
 
 .center{
 	text-align: center;
+}
+
+.icon-size{
+    font-size: 7em !important;
+}
+
+.footer{
+    height: 10em;
+    width: 100%;
+    background-color: #3B3B3B;
 }
